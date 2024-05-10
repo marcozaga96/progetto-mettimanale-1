@@ -1,1 +1,171 @@
 /* Your styles here */
+body{
+    background-color: rgb(228, 223, 223);
+    background-position: center;
+
+}
+header{
+    background-color: rgb(45, 45, 58);
+    
+}
+#logo{
+    height: 50px;
+}
+nav{
+    background-color: rgb(70, 70, 88);
+    padding: 10px;    
+}
+#elenco{
+    display: inline-block;
+}
+.c1{
+    display: inline;
+    padding: 10px;
+    color: white;
+}
+.c2{
+    display: inline;
+    padding: 10px;
+    color: white;
+}
+.c3{
+    display: inline;
+    padding: 10px;
+    color: white;
+}
+.c4{
+    display: inline;
+    padding: 10px;
+    color: white;
+}
+.c5{
+    display: inline;
+    padding: 10px;
+    color: white;
+}
+.c6{
+    display: inline;
+    padding: 10px;
+    color: white;
+}
+#section1{
+background-color: rgb(255, 81, 0);
+color: white;
+padding: 7px;
+margin: 30px;
+text-align: center;
+
+}
+
+
+.section2{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    background-image: url(../images/bg-image.png);
+    padding: 40px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    margin: 30px;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+
+}
+
+.section3{
+    color: white;
+    font-size: 1.17em;
+    text-align: center;
+    background-image: url(../images/bg-image.png);
+    padding: 25px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    margin: 30px;
+    margin-top: 0;
+    background-repeat: no-repeat;
+}
+#topsection4{
+    background-color: white;
+    height: 300px;
+    display: inline-block;
+    /* width: 100%; */
+    margin: 30px;
+    
+
+}
+.section4{
+    display: inline;
+    padding: 10px;
+    
+}
+.subsection4{
+    display: inline;
+    padding: 10px;
+    color: rgb(22, 62, 41);
+    
+}
+.prima{
+    height: 250px;
+    padding: 20px;
+    border-radius: 40px;
+    
+}
+.seconda{
+    height: 250px;
+    padding: 20px;
+    border-radius: 40px;
+
+}
+.terza{
+    height: 250px;
+    padding: 20px;
+    border-radius: 40px;
+
+}
+.quarta{
+    height: 250px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.vr{
+    height: 300px;
+    padding-left: 30px;
+}
+
+.subsection5{
+    display: inline;
+    padding-left: 30px;
+}
+.ssection5{
+    display: inline;
+    padding-left: 20px;
+    color: rgb(22, 62, 41);
+}
+.sound{
+    height: 300px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+#section6{
+    padding-bottom: 30px;
+}
+.subsection6{
+    display: inline;
+    padding-left: 30px;
+}
+.ssection6{
+    display: inline;
+    padding-left: 20px;
+    color: rgb(22, 62, 41);
+}
+aside{
+    background-color: rgb(70, 70, 88);
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    background-color: rgb(45, 45, 58);
+    text-align: center;
+
+}
