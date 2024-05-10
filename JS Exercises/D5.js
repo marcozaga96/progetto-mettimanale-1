@@ -12,17 +12,29 @@ REGOLE
 */
 const pets = ['dog', 'cat', 'hamster', 'redfish']
 
+for (let index = 0; index < pets.length; index++) {  
+  console.log("Le tipologie di animali sono:", pets[index])
+}
+
+
 /* ESERCIZIO 2
-    Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
+Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
+let petsOrdinati= pets.sort();
+console.log(petsOrdinati);
 
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
+petsOrdinati.reverse();
+console.log(petsOrdinati)
 
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
+let redfishSpostato = 0;
+petsOrdinati.push(petsOrdinati.splice(redfishSpostato,1)[0]);
+console.log(petsOrdinati)
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
@@ -47,6 +59,10 @@ const cars = [
     trims: ['life', 'style', 'r-line'],
   },
 ]
+let licensePlate="1561";
+cars.push(licensePlate)
+console.log(cars)
+
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
