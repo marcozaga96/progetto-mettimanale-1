@@ -88,7 +88,7 @@ text-align: center;
     background-color: white;
     height: 300px;
     display: inline-block;
-    /* width: 100%; */
+    width: 100%;
     margin: 30px;
     
 
@@ -96,12 +96,14 @@ text-align: center;
 .section4{
     display: inline;
     padding: 10px;
+    background-color: white;
     
 }
 .subsection4{
     display: inline;
     padding: 10px;
     color: rgb(22, 62, 41);
+    background-color: white;
     
 }
 .prima{
